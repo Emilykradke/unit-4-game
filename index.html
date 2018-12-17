@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Gemstone Game</title>
+        
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans|Oswald" rel="stylesheet">
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <header>
+            <p>You're a Gem</p>
+            <p id="second">Click some crystals</p>
+        </header>
+        <div id="wood">
+            <div id="container">
+                <div class="square">
+                    <img id="sapphire" class="crystal" src="assets/images/teal.jpg" alt="teal" height="130px">
+                </div>
+                <div class="square">
+                    <img id="diamond" class="crystal" src="assets/images/silver.jpg" alt="silver" height="130px">
+                </div>
+                <div class="square">
+                    <img id="ruby" class="crystal" src="assets/images/fuschia.jpg" alt="fuscia" height="130px">
+                </div>
+                <div class="square">
+                    <img id="emerald" class="crystal" src="assets/images/green.jpg" alt="green" height="130px">
+                </div>
+            </div>
+        </div>
+        
+        <div id="container2">
+            <div id="score">
+                <div>Winning number
+                    <p id="randomNum">0</p>
+                </div>
+                <div>Your Score
+                    <p id="yourScore">0</p>
+                </div>
+            </div>
+            <div id="winloss">
+                <div>Wins
+                    <p id="wins">0</p>
+                </div> 
+                <div>Losses
+                    <p id="losses">0</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="text">
+            <p id="textTitle">INSTRUCTIONS</p>
+            <p>You will be given a random "Winning Number" at the start of the game</p>
+            <p>Each of the four crystals above will add a specific amount of points to your total score</p>
+            <p>However, you will not know the value of the crystal until it is added to your score</p>
+            <p>You win the game by matching your total score to the winning number</p>
+            <p>Each time the game restarts, the value of each crystal and the random number will change</p>
+            <p>Good luck and remember, jewel can do it!</p>
+        </div>
+        <script type="text/javascript" src="assets/javascript/game.js"></script>
+    </body>
+</html>
